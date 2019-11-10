@@ -399,6 +399,7 @@ footer {
     padding: 8px;
     margin: 8px;
     display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "flex-growA""flex-growB";
