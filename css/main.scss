@@ -344,7 +344,7 @@ $tertiary-text: #ffffff;
 }
 
 .grid-container-fw {
-
+    justify-content: center;
     display: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -605,4 +605,193 @@ $tertiary-text: #ffffff;
     width: 100px;
     background: $secondary-color;
     grid-area: jcF3;
+}
+
+.grid-container-ai {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "align-itemsA align-itemsB""align-itemsC align-itemsD""align-itemsE align-itemsE";
+}
+
+.align-itemsA {
+    align-items: flex-start;
+    display: flex;
+    max-width: 500px;
+    height: 250px;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aiA1 aiA2 aiA3 aiA4";
+    grid-area: align-itemsA;
+}
+
+.aiA1 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiA1;
+}
+
+.aiA2 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiA2;
+}
+
+.aiA3 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiA3;
+}
+
+.aiA4 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiA4;
+}
+
+.align-itemsB {
+    align-items: flex-end;
+    display: flex;
+    max-width: 500px;
+    height: 250px;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aiB1 aiB2 aiB3 aiB4";
+    grid-area: align-itemsB;
+}
+
+.aiB1 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiB1;
+}
+
+.aiB2 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiB2;
+}
+
+.aiB3 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiB3;
+}
+
+.aiB4 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiB4;
+}
+
+.align-itemsC {
+    align-items: center;
+    display: flex;
+    max-width: 500px;
+    height: 250px;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aiC1 aiC2 aiC3 aiC4";
+    grid-area: align-itemsC;
+}
+
+.aiC1 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiC1;
+}
+
+.aiC2 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiC2;
+}
+
+.aiC3 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiC3;
+}
+
+.aiC4 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiC4;
+}
+
+.align-itemsD {
+    align-items: stretch;
+    display: flex;
+    max-width: 500px;
+    height: 250px;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aiD1 aiD2 aiD3 aiD4";
+    grid-area: align-itemsD;
+}
+
+.aiD1 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiD1;
+}
+
+.aiD2 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiD2;
+}
+
+.aiD3 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiD3;
+}
+
+.aiD4 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiD4;
+}
+
+.align-itemsE {
+    align-items:baseline;
+    display: flex;
+    max-width: 500px;
+    height: 250px;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aiE1 aiE2 aiE3 aiE4";
+    grid-area: align-itemsE;
+}
+
+.aiE1 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiE1;
+}
+
+.aiE2 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiE2;
+}
+
+.aiE3 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiE3;
+}
+
+.aiE4 {
+    width: 100px;
+    background: $secondary-color;
+    grid-area: aiE4;
 }
