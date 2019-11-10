@@ -335,6 +335,9 @@ footer {
 }
 
 .grid-container-fd {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 8px;
   margin: 8px;
   -ms-flex-wrap: wrap;
@@ -548,6 +551,9 @@ footer {
 }
 
 .grid-container-fg {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 8px;
   margin: 8px;
   display: -webkit-box;
@@ -1145,12 +1151,10 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 8px;
   margin: 8px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

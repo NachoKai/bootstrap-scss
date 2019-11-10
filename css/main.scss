@@ -251,6 +251,7 @@ footer {
 //flex direction
 
 .grid-container-fd {
+    justify-content: center;
     padding: 8px;
     margin: 8px;
     flex-wrap: wrap;
@@ -401,6 +402,7 @@ footer {
 //flex grow
 
 .grid-container-fg {
+    justify-content: center;
     padding: 8px;
     margin: 8px;
     display: flex;
@@ -830,9 +832,9 @@ footer {
 
 .grid-container-ai {
     justify-content: center;
+    flex-wrap: wrap;
     padding: 8px;
     margin: 8px;
-    flex-direction: column;
     display: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
