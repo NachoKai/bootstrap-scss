@@ -1590,7 +1590,7 @@ footer {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "acA1" "acA2" "acA3";
+      grid-template-areas: "acA1" "acA2" "acA3" "acA4";
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: align-contentA;
@@ -1626,6 +1626,16 @@ footer {
   grid-area: acA3;
 }
 
+.acA4 {
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: acA3;
+}
+
 .align-contentB {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -1643,7 +1653,7 @@ footer {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "acB1" "acB2" "acB3";
+      grid-template-areas: "acB1" "acB2" "acB3" "acB4";
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: align-contentB;
@@ -1679,6 +1689,16 @@ footer {
   grid-area: acB3;
 }
 
+.acB4 {
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: acB3;
+}
+
 .align-contentC {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -1696,7 +1716,7 @@ footer {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "acC1" "acC2" "acC3";
+      grid-template-areas: "acC1" "acC2" "acC3" "acC4";
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: align-contentC;
@@ -1732,9 +1752,17 @@ footer {
   grid-area: acC3;
 }
 
+.acC4 {
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: acC3;
+}
+
 .align-contentD {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 220px;
   padding: 8px;
   margin: 8px;
@@ -1749,7 +1777,7 @@ footer {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "acD1" "acD2" "acD3";
+      grid-template-areas: "acD1" "acD2" "acD3" "acD4";
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: align-contentD;
@@ -1785,6 +1813,16 @@ footer {
   grid-area: acD3;
 }
 
+.acD4 {
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: acD3;
+}
+
 .align-contentE {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -1802,7 +1840,7 @@ footer {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "acE1" "acE2" "acE3";
+      grid-template-areas: "acE1" "acE2" "acE3" "acE4";
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: align-contentE;
@@ -1838,6 +1876,16 @@ footer {
   grid-area: acE3;
 }
 
+.acE4 {
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: acE3;
+}
+
 .align-contentF {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -1855,7 +1903,7 @@ footer {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "acF1" "acF2" "acF3";
+      grid-template-areas: "acF1" "acF2" "acF3" "acF4";
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: align-contentF;
@@ -1882,6 +1930,16 @@ footer {
 }
 
 .acF3 {
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: acF3;
+}
+
+.acF4 {
   max-height: 50px;
   padding: 8px;
   margin: 8px;
