@@ -696,7 +696,7 @@ footer {
   padding: 8px;
   margin: 8px;
   max-width: 150px;
-  height: 210px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -761,7 +761,7 @@ footer {
 .flex-wrapB {
   padding: 8px;
   margin: 8px;
-  height: 210px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
