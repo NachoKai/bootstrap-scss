@@ -1134,6 +1134,7 @@ footer {
     margin: 8px;
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "align-contentA align-contentB""align-contentC align-contentD""align-contentE align-contentF";
