@@ -2020,6 +2020,10 @@ footer {
   background: #555;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #myBtn {
   display: none;
   position: fixed;
