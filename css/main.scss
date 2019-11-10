@@ -7,6 +7,11 @@ $tertiary-text: #ffffff;
 * {
     padding: 10px;
     margin: 10px;
+    text-align: center;
+}
+
+.titulo {
+    color: $tertiary-text;
 }
 
 .titulos {
@@ -17,11 +22,10 @@ $tertiary-text: #ffffff;
     height: 40px;
     font-size: 15px;
     color: $tertiary-text;
-    text-align: center;
 }
 
 .fondo-de-fondos {
-    background: #000000;
+    background: #0c0c0c;
     font-size: 20px;
     font-weight: 600;
     padding: 5px;
@@ -36,6 +40,7 @@ $tertiary-text: #ffffff;
 }
 
 .fondo-container {
+    justify-content: center;
     width: 100%;
     background: $primary-color;
     display: flex;
@@ -761,7 +766,7 @@ $tertiary-text: #ffffff;
 }
 
 .align-itemsE {
-    align-items:baseline;
+    align-items: baseline;
     display: flex;
     max-width: 500px;
     height: 250px;
@@ -794,4 +799,227 @@ $tertiary-text: #ffffff;
     width: 100px;
     background: $secondary-color;
     grid-area: aiE4;
+}
+
+.grid-container-as {
+    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "align-self";
+}
+
+.align-self {
+    display: flex;
+    max-width: 500px;
+    height: 250px;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "as1 as2 as3 as4";
+    grid-area: align-self;
+}
+
+.as1 {
+    align-self: flex-start;
+    width: 100px;
+    background: $secondary-color;
+    grid-area: as1;
+}
+
+.as2 {
+    align-self: flex-end;
+    width: 100px;
+    background: $secondary-color;
+    grid-area: as2;
+}
+
+.as3 {
+    align-self: center;
+    width: 100px;
+    background: $secondary-color;
+    grid-area: as3;
+}
+
+.as4 {
+    align-self: stretch;
+    width: 100px;
+    background: $secondary-color;
+    grid-area: as4;
+}
+
+.grid-container-ac {
+    flex-wrap: wrap;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "align-contentA align-contentB""align-contentC align-contentD""align-contentE align-contentF";
+}
+
+.align-contentA {
+    align-content: flex-start;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "acA1""acA2""acA3";
+    grid-area: align-contentA;
+}
+
+.acA1 {
+    background: $secondary-color;
+    grid-area: acA1;
+}
+
+.acA2 {
+    background: $secondary-color;
+    grid-area: acA2;
+}
+
+.acA3 {
+    background: $secondary-color;
+    grid-area: acA3;
+}
+
+.align-contentB {
+    align-content: flex-end;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "acB1""acB2""acB3";
+    grid-area: align-contentB;
+}
+
+.acB1 {
+    background: $secondary-color;
+    grid-area: acB1;
+}
+
+.acB2 {
+    background: $secondary-color;
+    grid-area: acB2;
+}
+
+.acB3 {
+    background: $secondary-color;
+    grid-area: acB3;
+}
+
+.align-contentC {
+    align-content: center;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "acC1""acC2""acC3";
+    grid-area: align-contentC;
+}
+
+.acC1 {
+    background: $secondary-color;
+    grid-area: acC1;
+}
+
+.acC2 {
+    background: $secondary-color;
+    grid-area: acC2;
+}
+
+.acC3 {
+    background: $secondary-color;
+    grid-area: acC3;
+}
+
+.align-contentD {
+    align-content: stretch;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "acD1""acD2""acD3";
+    grid-area: align-contentD;
+}
+
+.acD1 {
+    background: $secondary-color;
+    grid-area: acD1;
+}
+
+.acD2 {
+    background: $secondary-color;
+    grid-area: acD2;
+}
+
+.acD3 {
+    background: $secondary-color;
+    grid-area: acD3;
+}
+
+.align-contentE {
+    align-content: space-between;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "acE1""acE2""acE3";
+    grid-area: align-contentE;
+}
+
+.acE1 {
+    background: $secondary-color;
+    grid-area: acE1;
+}
+
+.acE2 {
+    background: $secondary-color;
+    grid-area: acE2;
+}
+
+.acE3 {
+    background: $secondary-color;
+    grid-area: acE3;
+}
+
+.align-contentF {
+    align-content: space-around;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "acF1""acF2""acF3";
+    grid-area: align-contentF;
+}
+
+.acF1 {
+    background: $secondary-color;
+    grid-area: acF1;
+}
+
+.acF2 {
+    background: $secondary-color;
+    grid-area: acF2;
+}
+
+.acF3 {
+    background: $secondary-color;
+    grid-area: acF3;
 }
