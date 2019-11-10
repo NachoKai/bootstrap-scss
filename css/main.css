@@ -1578,6 +1578,7 @@ footer {
 }
 
 .align-contentA {
+  width: 200px;
   padding: 8px;
   margin: 8px;
   -ms-flex-line-pack: start;
@@ -1587,7 +1588,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 300px;
-  min-width: 350px;
   background: #ac73ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1630,6 +1630,7 @@ footer {
 }
 
 .align-contentB {
+  width: 200px;
   padding: 8px;
   margin: 8px;
   -ms-flex-line-pack: end;
@@ -1639,7 +1640,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 300px;
-  min-width: 350px;
   background: #ac73ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1682,6 +1682,7 @@ footer {
 }
 
 .align-contentC {
+  width: 200px;
   padding: 8px;
   margin: 8px;
   -ms-flex-line-pack: center;
@@ -1691,7 +1692,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 300px;
-  min-width: 350px;
   background: #ac73ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1734,6 +1734,7 @@ footer {
 }
 
 .align-contentD {
+  width: 200px;
   padding: 8px;
   margin: 8px;
   -ms-flex-line-pack: stretch;
@@ -1743,7 +1744,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 300px;
-  min-width: 350px;
   background: #ac73ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1786,6 +1786,7 @@ footer {
 }
 
 .align-contentE {
+  width: 200px;
   padding: 8px;
   margin: 8px;
   -ms-flex-line-pack: justify;
@@ -1795,7 +1796,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 300px;
-  min-width: 350px;
   background: #ac73ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1838,6 +1838,7 @@ footer {
 }
 
 .align-contentF {
+  width: 200px;
   padding: 8px;
   margin: 8px;
   -ms-flex-line-pack: distribute;
@@ -1847,7 +1848,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 300px;
-  min-width: 350px;
   background: #ac73ff;
   display: -webkit-box;
   display: -ms-flexbox;
