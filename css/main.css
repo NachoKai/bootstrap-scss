@@ -352,7 +352,6 @@ footer {
 .flex-directionA {
   padding: 8px;
   margin: 8px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -404,7 +403,6 @@ footer {
 .flex-directionB {
   padding: 8px;
   margin: 8px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,7 +451,6 @@ footer {
 .flex-directionC {
   padding: 8px;
   margin: 8px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -505,7 +502,6 @@ footer {
 .flex-directionD {
   padding: 8px;
   margin: 8px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
