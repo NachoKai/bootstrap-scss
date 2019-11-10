@@ -1282,14 +1282,12 @@ footer {
 }
 
 .align-contentD {
-
     width: 220px;
     padding: 8px;
     margin: 8px;
     align-content: stretch;
     min-height: 300px;
     background: $primary-color;
-    display: flex;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "acD1""acD2""acD3""acD4";
