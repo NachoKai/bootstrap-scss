@@ -1063,10 +1063,9 @@ footer {
 .grid-container-as {
     display: flex;
     flex-wrap: wrap;
-    align-self: center;
+    justify-content: center;
     padding: 8px;
     margin: 8px;
-    width: 350px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "align-self";
