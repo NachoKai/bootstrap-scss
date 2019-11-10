@@ -761,7 +761,6 @@ footer {
 .flex-wrapB {
   padding: 8px;
   margin: 8px;
-  min-width: 350px;
   height: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
