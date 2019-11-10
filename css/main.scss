@@ -49,18 +49,16 @@ footer {
 
 .fondo-de-fondos {
     background-color: #0c0c0c;
-    padding: 10px;
-    margin: 10px;
+    padding: 4px;
+    margin: 4px;
     flex-wrap: wrap;
     font-size: 20px;
     font-weight: 600;
-    padding: 5px;
-    margin: 5px;
 }
 
 .grid-container-container {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     display: flex;
     grid-template-columns: 1fr;
     grid-template-rows: 1;
@@ -68,8 +66,8 @@ footer {
 }
 
 .fondo-container {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: center;
     width: 100%;
     background: $primary-color;
@@ -81,22 +79,22 @@ footer {
 }
 
 .container1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: container1;
 }
 
 .container2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: container2;
 }
 
 .container3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: container3;
 }
@@ -104,8 +102,8 @@ footer {
 .grid-container-order {
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     display: flex;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -114,8 +112,8 @@ footer {
 
 .order1 {
     min-width: 300px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $primary-color;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -125,40 +123,40 @@ footer {
 }
 
 .orderA1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderA1;
     order: 1;
 }
 
 .orderA2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderA2;
     order: 1;
 }
 
 .orderA3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderA3;
     order: 1;
 }
 
 .orderA4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderA4;
     order: 2;
 }
 
 .orderA5 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderA5;
     order: 3;
@@ -166,8 +164,8 @@ footer {
 
 .order2 {
     min-width: 300px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     display: flex;
     background: $primary-color;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -177,32 +175,32 @@ footer {
 }
 
 .orderB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderB1;
     order: -1;
 }
 
 .orderB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderB2;
     order: 1;
 }
 
 .orderB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderB3;
     order: 2;
 }
 
 .orderB4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderB4;
     order: 5;
@@ -210,8 +208,8 @@ footer {
 
 .order3 {
     min-width: 300px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $primary-color;
     display: flex;
     grid-template-columns: 1fr;
@@ -221,32 +219,32 @@ footer {
 }
 
 .orderC1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderC1;
     order: 2;
 }
 
 .orderC2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderC2;
     order: 2;
 }
 
 .orderC3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: orderC3;
     order: 99;
 }
 
 .grid-container-fd {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     flex-wrap: wrap;
     display: flex;
     grid-template-columns: 1fr 1fr;
@@ -255,8 +253,8 @@ footer {
 }
 
 .flex-directionA {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100%;
     display: flex;
     background: $primary-color;
@@ -269,31 +267,31 @@ footer {
 
 .fdA1 {
     min-width: 80px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdA1;
 }
 
 .fdA2 {
     min-width: 80px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdA2;
 }
 
 .fdA3 {
     min-width: 80px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdA3;
 }
 
 .flex-directionB {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100%;
     display: flex;
     background: $primary-color;
@@ -305,29 +303,29 @@ footer {
 }
 
 .fdB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdB1;
 }
 
 .fdB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdB2;
 }
 
 .fdB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdB3;
 }
 
 .flex-directionC {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100%;
     display: flex;
     background: $primary-color;
@@ -340,31 +338,31 @@ footer {
 
 .fdC1 {
     min-width: 80px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdC1;
 }
 
 .fdC2 {
     min-width: 80px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdC2;
 }
 
 .fdC3 {
     min-width: 80px;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdC3;
 }
 
 .flex-directionD {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100%;
     display: flex;
     background: $primary-color;
@@ -376,29 +374,29 @@ footer {
 }
 
 .fdD1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdD1;
 }
 
 .fdD2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdD2;
 }
 
 .fdD3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: fdD3;
 }
 
 .grid-container-fg {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     display: flex;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -406,8 +404,8 @@ footer {
 }
 
 .flex-growA {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 60%;
     display: flex;
     background: $primary-color;
@@ -418,32 +416,32 @@ footer {
 }
 
 .fgA1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fgA1;
     background: $secondary-color;
     flex-grow: 1;
 }
 
 .fgA2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fgA2;
     background: $secondary-color;
     flex-grow: 1;
 }
 
 .fgA3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fgA3;
     background: $secondary-color;
     flex-grow: 1;
 }
 
 .flex-growB {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100%;
     display: flex;
     background: $primary-color;
@@ -454,32 +452,32 @@ footer {
 }
 
 .fgB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fgB1;
     background: $secondary-color;
     flex-grow: 1;
 }
 
 .fgB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fgB2;
     background: $secondary-color;
     flex-grow: 2;
 }
 
 .fgB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fgB3;
     background: $secondary-color;
     flex-grow: 1;
 }
 
 .grid-container-fw {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
@@ -489,8 +487,8 @@ footer {
 }
 
 .flex-wrapA {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     max-width: 150px;
     height: 250px;
     display: flex;
@@ -503,43 +501,43 @@ footer {
 }
 
 .fwA1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwA1;
     background: $secondary-color;
 }
 
 .fwA2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwA2;
     background: $secondary-color;
 }
 
 .fwA3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwA3;
     background: $secondary-color;
 }
 
 .fwA4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwA4;
     background: $secondary-color;
 }
 
 .fwA5 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwA5;
     background: $secondary-color;
 }
 
 .flex-wrapB {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     min-width: 350px;
     height: 250px;
     display: flex;
@@ -552,36 +550,36 @@ footer {
 }
 
 .fwB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwB1;
     background: $secondary-color;
 }
 
 .fwB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwB2;
     background: $secondary-color;
 }
 
 .fwB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwB3;
     background: $secondary-color;
 }
 
 .fwB4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwB4;
     background: $secondary-color;
 }
 
 .fwB5 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     grid-area: fwB5;
     background: $secondary-color;
 }
@@ -597,8 +595,8 @@ footer {
 }
 
 .justify-contentA {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: flex-start;
     display: flex;
     width: 100%;
@@ -610,32 +608,32 @@ footer {
 }
 
 .jcA1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcA1;
 }
 
 .jcA2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcA2;
 }
 
 .jcA3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcA3;
 }
 
 .justify-contentB {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: flex-end;
     display: flex;
     width: 100%;
@@ -647,32 +645,32 @@ footer {
 }
 
 .jcB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcB1;
 }
 
 .jcB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcB2;
 }
 
 .jcB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcB3;
 }
 
 .justify-contentC {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: center;
     display: flex;
     width: 100%;
@@ -684,32 +682,32 @@ footer {
 }
 
 .jcC1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcC1;
 }
 
 .jcC2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcC2;
 }
 
 .jcC3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcC3;
 }
 
 .justify-contentD {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: space-between;
     display: flex;
     width: 100%;
@@ -721,32 +719,32 @@ footer {
 }
 
 .jcD1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcD1;
 }
 
 .jcD2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcD2;
 }
 
 .jcD3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcD3;
 }
 
 .justify-contentE {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: space-around;
     display: flex;
     width: 100%;
@@ -758,32 +756,32 @@ footer {
 }
 
 .jcE1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcE1;
 }
 
 .jcE2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcE2;
 }
 
 .jcE3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcE3;
 }
 
 .justify-contentF {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     justify-content: space-evenly;
     display: flex;
     width: 100%;
@@ -795,24 +793,24 @@ footer {
 }
 
 .jcF1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcF1;
 }
 
 .jcF2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcF2;
 }
 
 .jcF3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 50px;
     background: $secondary-color;
     grid-area: jcF3;
@@ -820,8 +818,8 @@ footer {
 
 .grid-container-ai {
     justify-content: center;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     flex-direction: column;
     display: flex;
     grid-template-columns: 1fr 1fr;
@@ -830,8 +828,8 @@ footer {
 }
 
 .align-itemsA {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-items: flex-start;
     display: flex;
     max-width: 500px;
@@ -844,40 +842,40 @@ footer {
 }
 
 .aiA1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiA1;
 }
 
 .aiA2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiA2;
 }
 
 .aiA3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiA3;
 }
 
 .aiA4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiA4;
 }
 
 .align-itemsB {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-items: flex-end;
     display: flex;
     max-width: 500px;
@@ -890,40 +888,40 @@ footer {
 }
 
 .aiB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiB1;
 }
 
 .aiB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiB2;
 }
 
 .aiB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiB3;
 }
 
 .aiB4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiB4;
 }
 
 .align-itemsC {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-items: center;
     display: flex;
     max-width: 500px;
@@ -936,40 +934,40 @@ footer {
 }
 
 .aiC1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiC1;
 }
 
 .aiC2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiC2;
 }
 
 .aiC3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiC3;
 }
 
 .aiC4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiC4;
 }
 
 .align-itemsD {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-items: stretch;
     display: flex;
     max-width: 500px;
@@ -982,40 +980,40 @@ footer {
 }
 
 .aiD1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiD1;
 }
 
 .aiD2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiD2;
 }
 
 .aiD3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiD3;
 }
 
 .aiD4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiD4;
 }
 
 .align-itemsE {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-items: baseline;
     display: flex;
     max-width: 500px;
@@ -1028,40 +1026,40 @@ footer {
 }
 
 .aiE1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiE1;
 }
 
 .aiE2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiE2;
 }
 
 .aiE3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiE3;
 }
 
 .aiE4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     width: 100px;
     background: $secondary-color;
     grid-area: aiE4;
 }
 
 .grid-container-as {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
@@ -1071,8 +1069,8 @@ footer {
 }
 
 .align-self {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     display: flex;
     height: 250px;
     background: $primary-color;
@@ -1083,16 +1081,16 @@ footer {
 }
 
 .as1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-self: flex-start;
     background: $secondary-color;
     grid-area: as1;
 }
 
 .as2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-self: flex-end;
     width: 100px;
     background: $secondary-color;
@@ -1100,8 +1098,8 @@ footer {
 }
 
 .as3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-self: center;
     width: 100px;
     background: $secondary-color;
@@ -1109,8 +1107,8 @@ footer {
 }
 
 .as4 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-self: stretch;
     width: 100px;
     background: $secondary-color;
@@ -1118,8 +1116,8 @@ footer {
 }
 
 .grid-container-ac {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     flex-wrap: wrap;
     display: flex;
     grid-template-columns: 1fr 1fr;
@@ -1128,8 +1126,8 @@ footer {
 }
 
 .align-contentA {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-content: flex-start;
     flex-direction: column;
     min-height: 300px;
@@ -1143,29 +1141,29 @@ footer {
 }
 
 .acA1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acA1;
 }
 
 .acA2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acA2;
 }
 
 .acA3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acA3;
 }
 
 .align-contentB {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-content: flex-end;
     flex-direction: column;
     min-height: 300px;
@@ -1179,29 +1177,29 @@ footer {
 }
 
 .acB1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acB1;
 }
 
 .acB2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acB2;
 }
 
 .acB3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acB3;
 }
 
 .align-contentC {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-content: center;
     flex-direction: column;
     min-height: 300px;
@@ -1215,29 +1213,29 @@ footer {
 }
 
 .acC1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acC1;
 }
 
 .acC2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acC2;
 }
 
 .acC3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acC3;
 }
 
 .align-contentD {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-content: stretch;
     flex-direction: column;
     min-height: 300px;
@@ -1251,29 +1249,29 @@ footer {
 }
 
 .acD1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acD1;
 }
 
 .acD2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acD2;
 }
 
 .acD3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acD3;
 }
 
 .align-contentE {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-content: space-between;
     flex-direction: column;
     min-height: 300px;
@@ -1287,29 +1285,29 @@ footer {
 }
 
 .acE1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acE1;
 }
 
 .acE2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acE2;
 }
 
 .acE3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acE3;
 }
 
 .align-contentF {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     align-content: space-around;
     flex-direction: column;
     min-height: 300px;
@@ -1323,22 +1321,22 @@ footer {
 }
 
 .acF1 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acF1;
 }
 
 .acF2 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acF2;
 }
 
 .acF3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
     background: $secondary-color;
     grid-area: acF3;
 }
