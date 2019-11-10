@@ -1060,11 +1060,12 @@ footer {
 }
 
 .grid-container-as {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
     padding: 8px;
     margin: 8px;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
+    width: 350px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "align-self";
