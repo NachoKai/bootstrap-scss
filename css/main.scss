@@ -1088,6 +1088,7 @@ footer {
     padding: 8px;
     margin: 8px;
     align-self: flex-start;
+    width: 50px;
     background: $secondary-color;
     grid-area: as1;
 }
@@ -1096,7 +1097,7 @@ footer {
     padding: 8px;
     margin: 8px;
     align-self: flex-end;
-    width: 100px;
+    width: 50px;
     background: $secondary-color;
     grid-area: as2;
 }
@@ -1105,7 +1106,7 @@ footer {
     padding: 8px;
     margin: 8px;
     align-self: center;
-    width: 100px;
+    width: 50px;
     background: $secondary-color;
     grid-area: as3;
 }
@@ -1114,7 +1115,7 @@ footer {
     padding: 8px;
     margin: 8px;
     align-self: stretch;
-    width: 100px;
+    width: 50px;
     background: $secondary-color;
     grid-area: as4;
 }

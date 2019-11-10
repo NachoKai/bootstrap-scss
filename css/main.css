@@ -1518,6 +1518,7 @@ footer {
   margin: 8px;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  width: 50px;
   background: #9de5ff;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -1529,7 +1530,7 @@ footer {
   margin: 8px;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  width: 100px;
+  width: 50px;
   background: #9de5ff;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
@@ -1542,7 +1543,7 @@ footer {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 100px;
+  width: 50px;
   background: #9de5ff;
   -ms-grid-row: 1;
   -ms-grid-column: 3;
@@ -1555,7 +1556,7 @@ footer {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
-  width: 100px;
+  width: 50px;
   background: #9de5ff;
   -ms-grid-row: 1;
   -ms-grid-column: 4;
