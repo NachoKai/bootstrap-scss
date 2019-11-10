@@ -1,4 +1,11 @@
 * {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   text-align: center;
 }
 
@@ -19,11 +26,24 @@ hr {
   width: 60%;
 }
 
-.footer {
+footer {
   background: #0c0c0c;
   height: 40px;
   font-size: 15px;
+}
+
+.link {
+  font-size: 18px;
   color: #ffffff;
+}
+
+.link:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.link:active {
+  font-size: 16px;
 }
 
 .fondo-de-fondos {
