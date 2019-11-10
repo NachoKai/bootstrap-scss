@@ -1770,7 +1770,6 @@ footer {
   margin: 8px;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  min-height: 300px;
   background: #ac73ff;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
