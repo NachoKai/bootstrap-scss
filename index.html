@@ -14,7 +14,26 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
     <div class="fondo-de-fondos">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#container">container</a>
+                <a href="#contorderact">order</a>
+                <a href="#fd">flex-direction</a>
+                <a href="#fg">flex-grow</a>
+                <a href="#fw">flex-wrap</a>
+                <a href="#jc">justify-content</a>
+                <a href="#ai">align-items</a>
+                <a href="#as">align-self</a>
+                <a href="#ac">align-content</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
         <div class="titulo">
             <h1>Bootstrap & Scss</h1>
             <h5>npm install bootstrap / npm install -g node-sass</h5>
@@ -28,7 +47,7 @@
             <h3>container / items</h3>
             <h5>display: flex;</h5>
         </div>
-        <div class="grid-container-container">
+        <div class="grid-container-container" id="container">
             <div class="fondo-container">container
                 <div class="container1">item 1</div>
                 <div class="container2">item 2</div>
@@ -39,7 +58,7 @@
         <div class="titulos">
             <h3>order</h3>
         </div>
-        <div class="grid-container-order">
+        <div class="grid-container-order" id="order">
             <div class="order1">A
                 <div class="orderA1">1</div>
                 <div class="orderA2">1</div>
@@ -63,7 +82,7 @@
         <div class="titulos">
             <h3>flex-direction</h3>
         </div>
-        <div class="grid-container-fd">
+        <div class="grid-container-fd" id="fd">
             <div class="flex-directionA">row
                 <div class="fdA1">1</div>
                 <div class="fdA2">2</div>
@@ -89,7 +108,7 @@
         <div class="titulos">
             <h3>flex-grow</h3>
         </div>
-        <div class="grid-container-fg">
+        <div class="grid-container-fg" id="fg">
             <div class="flex-growA">
                 <div class="fgA1">1</div>
                 <div class="fgA2">1</div>
@@ -105,7 +124,7 @@
         <div class="titulos">
             <h3>flex-wrap</h3>
         </div>
-        <div class="grid-container-fw">
+        <div class="grid-container-fw" id="fw">
             <div class="flex-wrapA">wrap
                 <div class="fwA1">1</div>
                 <div class="fwA2">2</div>
@@ -125,7 +144,7 @@
         <div class="titulos">
             <h3>justify-content</h3>
         </div>
-        <div class="grid-container-jc">
+        <div class="grid-container-jc" id="jc">
             <div class="justify-contentA">flex-start
                 <div class="jcA1">1</div>
                 <div class="jcA2">2</div>
@@ -161,7 +180,7 @@
         <div class="titulos">
             <h3>align-items</h3>
         </div>
-        <div class="grid-container-ai">
+        <div class="grid-container-ai" id="ai">
             <div class="align-itemsA">flex-start
                 <div class="aiA1">1</div>
                 <div class="aiA2">2</div>
@@ -194,8 +213,8 @@
             </div>
         </div>
         <hr>
-        <div class="titulos">
-            <h3>align/justify-self</h3>
+        <div class="titulos" id="as">
+            <h3>align-self</h3>
             <h5>Acepta lo mismo pero individualmente.</h5>
         </div>
         <div class="grid-container-as">
@@ -210,7 +229,7 @@
         <div class="titulos">
             <h3>align-content</h3>
         </div>
-        <div class="grid-container-ac">
+        <div class="grid-container-ac" id="ac">
             <div class="align-contentA">flex-start
                 <div class="acA1">1</div>
                 <div class="acA2">2</div>
@@ -254,6 +273,7 @@
         <footer><a href="https://github.com/NachoKai" class="link">Nacho Caiafa</a></footer>
     </div>
     <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/429b57eee3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
