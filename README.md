@@ -1,3 +1,2 @@
-# bootstrap-scss
-bootstrap-scss practice
-## Enter[https://nachokai.github.io/bootstrap-scss/]
+# Practica de Bootstrap, Scss y Flexbox  
+## [Entrar](https://nachokai.github.io/bootstrap-scss/)  
