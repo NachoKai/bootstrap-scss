@@ -1,0 +1,262 @@
+$primary-color: #ac73ff;
+$secondary-color: #9de5ff;
+$primary-text: #ac73ff;
+$secondary-text: #9de5ff;
+$tertiary-text: #ffffff;
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+.fondo-de-fondos {
+    background: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 5px;
+}
+
+.grid-container {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+    grid-template-areas: "fondo-container";
+}
+
+.fondo-container {
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "container1 container2 container3";
+    grid-area: fondo-container;
+}
+
+.container1 {
+    background: $secondary-color;
+    grid-area: container1;
+}
+
+.container2 {
+    background: $secondary-color;
+    grid-area: container2;
+}
+
+.container3 {
+    background: $secondary-color;
+    grid-area: container3;
+}
+
+.grid-container {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "order1""order2""order3";
+}
+
+.order1 {
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "orderA1 orderA2 orderA3 orderA4 orderA5";
+    grid-area: order1;
+}
+
+.orderA1 {
+    background: $secondary-color;
+    grid-area: orderA1;
+    order: 1;
+}
+
+.orderA2 {
+    background: $secondary-color;
+    grid-area: orderA2;
+    order: 1;
+}
+
+.orderA3 {
+    background: $secondary-color;
+    grid-area: orderA3;
+    order: 1;
+}
+
+.orderA4 {
+    background: $secondary-color;
+    grid-area: orderA4;
+    order: 2;
+}
+
+.orderA5 {
+    background: $secondary-color;
+    grid-area: orderA5;
+    order: 3;
+}
+
+.order2 {
+    display: flex;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "orderB1 orderB2 orderB3 orderB4";
+    grid-area: order2;
+}
+
+.orderB1 {
+    background: $secondary-color;
+    grid-area: orderB1;
+    order: -1;
+}
+
+.orderB2 {
+    background: $secondary-color;
+    grid-area: orderB2;
+    order: 1;
+}
+
+.orderB3 {
+    background: $secondary-color;
+    grid-area: orderB3;
+    order: 2;
+}
+
+.orderB4 {
+    background: $secondary-color;
+    grid-area: orderB4;
+    order: 5;
+}
+
+.order3 {
+    background: $primary-color;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "orderC1""orderC2""orderC3";
+    grid-area: order3;
+}
+
+.orderC1 {
+    background: $secondary-color;
+    grid-area: orderC1;
+    order: 2;
+}
+
+.orderC2 {
+    background: $secondary-color;
+    grid-area: orderC2;
+    order: 2;
+}
+
+.orderC3 {
+    background: $secondary-color;
+    grid-area: orderC3;
+    order: 99;
+}
+
+.grid-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "flex-directionA flex-directionB""flex-directionC flex-directionD";
+}
+
+.flex-directionA {
+    display: flex;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "fdA1 fdA2 fdA3";
+    grid-area: flex-directionA;
+    flex-direction: row;
+}
+
+.fdA1 {
+    background: $secondary-color;
+    grid-area: fdA1;
+}
+
+.fdA2 {
+    background: $secondary-color;
+    grid-area: fdA2;
+}
+
+.fdA3 {
+    background: $secondary-color;
+    grid-area: fdA3;
+}
+
+.flex-directionB {
+    display: flex;
+    background: $primary-color;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "fdB1""fdB2""fdB3";
+    grid-area: flex-directionB;
+    flex-direction: column;
+}
+
+.fdB1 {
+    background: $secondary-color;
+    grid-area: fdB1;
+}
+
+.fdB2 {
+    background: $secondary-color;
+    grid-area: fdB2;
+}
+
+.fdB3 {
+    background: $secondary-color;
+    grid-area: fdB3;
+}
+
+.flex-directionC {
+    display: flex;
+    background: $primary-color;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "fdC1 fdC2 fdC3";
+    grid-area: flex-directionC;
+    flex-direction: row-reverse;
+}
+
+.fdC1 {
+    background: $secondary-color;
+    grid-area: fdC1;
+}
+
+.fdC2 {
+    background: $secondary-color;
+    grid-area: fdC2;
+}
+
+.fdC3 {
+    background: $secondary-color;
+    grid-area: fdC3;
+}
+
+.flex-directionD {
+    display: flex;
+    background: $primary-color;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "fdD1""fdD2""fdD3";
+    grid-area: flex-directionD;
+    flex-direction: column-reverse;
+}
+
+.fdD1 {
+    background: $secondary-color;
+    grid-area: fdD1;
+}
+
+.fdD2 {
+    background: $secondary-color;
+    grid-area: fdD2;
+}
+
+.fdD3 {
+    background: $secondary-color;
+    grid-area: fdD3;
+}

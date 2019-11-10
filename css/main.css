@@ -1,0 +1,407 @@
+* {
+  padding: 10px;
+  margin: 10px;
+}
+
+.fondo-de-fondos {
+  background: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 5px;
+}
+
+.grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1;
+      grid-template-rows: 1;
+      grid-template-areas: "fondo-container";
+}
+
+.fondo-container {
+  background: #ac73ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "container1 container2 container3";
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: fondo-container;
+}
+
+.container1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: container1;
+}
+
+.container2 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: container2;
+}
+
+.container3 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: container3;
+}
+
+.grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "order1" "order2" "order3";
+}
+
+.order1 {
+  background: #ac73ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "orderA1 orderA2 orderA3 orderA4 orderA5";
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: order1;
+}
+
+.orderA1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: orderA1;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.orderA2 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: orderA2;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.orderA3 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: orderA3;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.orderA4 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: orderA4;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.orderA5 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: orderA5;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.order2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ac73ff;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "orderB1 orderB2 orderB3 orderB4";
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: order2;
+}
+
+.orderB1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: orderB1;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.orderB2 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: orderB2;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.orderB3 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: orderB3;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.orderB4 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: orderB4;
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+.order3 {
+  background: #ac73ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "orderC1" "orderC2" "orderC3";
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: order3;
+}
+
+.orderC1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: orderC1;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.orderC2 {
+  background: #9de5ff;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: orderC2;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.orderC3 {
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: orderC3;
+  -webkit-box-ordinal-group: 100;
+      -ms-flex-order: 99;
+          order: 99;
+}
+
+.grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "flex-directionA flex-directionB" "flex-directionC flex-directionD";
+}
+
+.flex-directionA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ac73ff;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "fdA1 fdA2 fdA3";
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: flex-directionA;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fdA1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: fdA1;
+}
+
+.fdA2 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: fdA2;
+}
+
+.fdA3 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: fdA3;
+}
+
+.flex-directionB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ac73ff;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "fdB1" "fdB2" "fdB3";
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: flex-directionB;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fdB1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: fdB1;
+}
+
+.fdB2 {
+  background: #9de5ff;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: fdB2;
+}
+
+.fdB3 {
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: fdB3;
+}
+
+.flex-directionC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ac73ff;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "fdC1 fdC2 fdC3";
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: flex-directionC;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.fdC1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: fdC1;
+}
+
+.fdC2 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: fdC2;
+}
+
+.fdC3 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: fdC3;
+}
+
+.flex-directionD {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ac73ff;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "fdD1" "fdD2" "fdD3";
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: flex-directionD;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.fdD1 {
+  background: #9de5ff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: fdD1;
+}
+
+.fdD2 {
+  background: #9de5ff;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: fdD2;
+}
+
+.fdD3 {
+  background: #9de5ff;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: fdD3;
+}
+/*# sourceMappingURL=main.css.map */
