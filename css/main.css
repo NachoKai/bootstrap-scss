@@ -1174,7 +1174,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 500px;
   height: 250px;
   background: #ac73ff;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -1236,7 +1235,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 500px;
   height: 250px;
   background: #ac73ff;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -1298,7 +1296,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 500px;
   height: 250px;
   background: #ac73ff;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -1360,7 +1357,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 500px;
   height: 250px;
   background: #ac73ff;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -1422,7 +1418,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 500px;
   height: 250px;
   background: #ac73ff;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
