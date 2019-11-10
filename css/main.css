@@ -38,7 +38,6 @@ footer {
 }
 
 .link:hover {
-  font-weight: bold;
   color: #ffffff;
 }
 
@@ -1146,11 +1145,11 @@ footer {
 }
 
 .grid-container-ai {
-  padding: 10px;
-  margin: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10px;
+  margin: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
