@@ -695,7 +695,7 @@ footer {
   padding: 8px;
   margin: 8px;
   max-width: 150px;
-  height: 250px;
+  height: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -761,7 +761,7 @@ footer {
   padding: 8px;
   margin: 8px;
   min-width: 350px;
-  height: 250px;
+  height: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
