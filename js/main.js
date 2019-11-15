@@ -28,15 +28,3 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-// Cambiar colores
-
-document.documentElement.style.setProperty("--mainColor", localStorage.getItem("userThemeColor"));
-let colorInput = document.querySelector("#choose-theme-color");
-colorInput.addEventListener("change", function () {
-    
-    // Cambia el color
-    document.documentElement.style.setProperty("--mainColor", this.value);
-    // Guarda el valor
-    localStorage.setItem("userThemeColor", this.value);
-});
