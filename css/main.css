@@ -28,6 +28,7 @@ hr {
 }
 
 footer {
+  background: #0c0c0c;
   height: 40px;
   font-size: 15px;
 }
@@ -56,7 +57,6 @@ footer {
 }
 
 .grid-container-container {
-  color: #000000;
   padding: 8px;
   margin: 8px;
   display: -webkit-box;
@@ -2042,31 +2042,5 @@ html {
 
 #myBtn:hover {
   background-color: #555;
-}
-
-main {
-  color: #ffffff;
-}
-
-:root {
-  --mainColor: #9de5ff;
-}
-
-h1 {
-  background: var(--mainColor);
-  margin: 0;
-  padding: 1rem;
-  color: white;
-}
-
-.subtitle {
-  padding: 0.5rem 1rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))) var(--mainColor);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) var(--mainColor);
-}
-
-footer {
-  background: var(--mainColor);
-  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
