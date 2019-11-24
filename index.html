@@ -1,279 +1,315 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <title>Bootstrap, Scss, Flexbox - Nacho Caiafa</title>
-    <!-- Meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/429b57eee3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-chevron-circle-up"></i>
+    </button>
     <div class="fondo-de-fondos">
-        <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
-                <a href="#container">container</a>
-                <a href="#order">order</a>
-                <a href="#fd">flex-direction</a>
-                <a href="#fg">flex-grow</a>
-                <a href="#fw">flex-wrap</a>
-                <a href="#jc">justify-content</a>
-                <a href="#ai">align-items</a>
-                <a href="#as">align-self</a>
-                <a href="#ac">align-content</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fas fa-bars"></i>
-                </a>
-            </div>
-        </nav>
-        <hr>
-        <div class="titulo">
-            <h1>Bootstrap & Scss</h1>
-            <h5>npm install bootstrap / npm install -g node-sass</h5>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#container">container</a>
+          <a href="#order">order</a>
+          <a href="#fd">flex-direction</a>
+          <a href="#fg">flex-grow</a>
+          <a href="#fw">flex-wrap</a>
+          <a href="#jc">justify-content</a>
+          <a href="#ai">align-items</a>
+          <a href="#as">align-self</a>
+          <a href="#ac">align-content</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+          </a>
         </div>
-        <hr>
-        <div class="titulo">
-            <h1>Flexbox</h1>
+      </nav>
+      <hr />
+      <div class="titulo">
+        <h1>Bootstrap & Scss</h1>
+        <h5>npm install bootstrap / npm install -g node-sass</h5>
+      </div>
+      <hr />
+      <div class="titulo">
+        <h1>Flexbox</h1>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>container / items</h3>
+        <h5>display: flex;</h5>
+      </div>
+      <div class="grid-container-container" id="container">
+        <div class="fondo-container">
+          container
+          <div class="container1">item 1</div>
+          <div class="container2">item 2</div>
+          <div class="container3">item 3</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>container / items</h3>
-            <h5>display: flex;</h5>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>order</h3>
+      </div>
+      <div class="grid-container-order" id="order">
+        <div class="order1">
+          A
+          <div class="orderA1">1</div>
+          <div class="orderA2">1</div>
+          <div class="orderA3">1</div>
+          <div class="orderA4">2</div>
+          <div class="orderA5">3</div>
         </div>
-        <div class="grid-container-container" id="container">
-            <div class="fondo-container">container
-                <div class="container1">item 1</div>
-                <div class="container2">item 2</div>
-                <div class="container3">item 3</div>
-            </div>
+        <div class="order2">
+          B
+          <div class="orderB1">-1</div>
+          <div class="orderB2">1</div>
+          <div class="orderB3">2</div>
+          <div class="orderB4">5</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>order</h3>
+        <div class="order3">
+          C
+          <div class="orderC1">2</div>
+          <div class="orderC2">2</div>
+          <div class="orderC3">99</div>
         </div>
-        <div class="grid-container-order" id="order">
-            <div class="order1">A
-                <div class="orderA1">1</div>
-                <div class="orderA2">1</div>
-                <div class="orderA3">1</div>
-                <div class="orderA4">2</div>
-                <div class="orderA5">3</div>
-            </div>
-            <div class="order2">B
-                <div class="orderB1">-1</div>
-                <div class="orderB2">1</div>
-                <div class="orderB3">2</div>
-                <div class="orderB4">5</div>
-            </div>
-            <div class="order3">C
-                <div class="orderC1">2</div>
-                <div class="orderC2">2</div>
-                <div class="orderC3">99</div>
-            </div>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>flex-direction</h3>
+      </div>
+      <div class="grid-container-fd" id="fd">
+        <div class="flex-directionA">
+          row
+          <div class="fdA1">1</div>
+          <div class="fdA2">2</div>
+          <div class="fdA3">3</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>flex-direction</h3>
+        <div class="flex-directionB">
+          column
+          <div class="fdB1">1</div>
+          <div class="fdB2">2</div>
+          <div class="fdB3">3</div>
         </div>
-        <div class="grid-container-fd" id="fd">
-            <div class="flex-directionA">row
-                <div class="fdA1">1</div>
-                <div class="fdA2">2</div>
-                <div class="fdA3">3</div>
-            </div>
-            <div class="flex-directionB">column
-                <div class="fdB1">1</div>
-                <div class="fdB2">2</div>
-                <div class="fdB3">3</div>
-            </div>
-            <div class="flex-directionC">row-reverse
-                <div class="fdC1">1</div>
-                <div class="fdC2">2</div>
-                <div class="fdC3">3</div>
-            </div>
-            <div class="flex-directionD">column-reverse
-                <div class="fdD1">1</div>
-                <div class="fdD2">2</div>
-                <div class="fdD3">3</div>
-            </div>
+        <div class="flex-directionC">
+          row-reverse
+          <div class="fdC1">1</div>
+          <div class="fdC2">2</div>
+          <div class="fdC3">3</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>flex-grow</h3>
+        <div class="flex-directionD">
+          column-reverse
+          <div class="fdD1">1</div>
+          <div class="fdD2">2</div>
+          <div class="fdD3">3</div>
         </div>
-        <div class="grid-container-fg" id="fg">
-            <div class="flex-growA">
-                <div class="fgA1">1</div>
-                <div class="fgA2">1</div>
-                <div class="fgA3">1</div>
-            </div>
-            <div class="flex-growB">
-                <div class="fgB1">1</div>
-                <div class="fgB2">2</div>
-                <div class="fgB3">1</div>
-            </div>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>flex-grow</h3>
+      </div>
+      <div class="grid-container-fg" id="fg">
+        <div class="flex-growA">
+          <div class="fgA1">1</div>
+          <div class="fgA2">1</div>
+          <div class="fgA3">1</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>flex-wrap</h3>
+        <div class="flex-growB">
+          <div class="fgB1">1</div>
+          <div class="fgB2">2</div>
+          <div class="fgB3">1</div>
         </div>
-        <div class="grid-container-fw" id="fw">
-            <div class="flex-wrapA">wrap
-                <div class="fwA1">1</div>
-                <div class="fwA2">2</div>
-                <div class="fwA3">3</div>
-                <div class="fwA4">4</div>
-                <div class="fwA5">5</div>
-            </div>
-            <div class="flex-wrapB">nowrap
-                <div class="fwB1">1</div>
-                <div class="fwB2">2</div>
-                <div class="fwB3">3</div>
-                <div class="fwB4">4</div>
-                <div class="fwB5">5</div>
-            </div>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>flex-wrap</h3>
+      </div>
+      <div class="grid-container-fw" id="fw">
+        <div class="flex-wrapA">
+          wrap
+          <div class="fwA1">1</div>
+          <div class="fwA2">2</div>
+          <div class="fwA3">3</div>
+          <div class="fwA4">4</div>
+          <div class="fwA5">5</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>justify-content</h3>
+        <div class="flex-wrapB">
+          nowrap
+          <div class="fwB1">1</div>
+          <div class="fwB2">2</div>
+          <div class="fwB3">3</div>
+          <div class="fwB4">4</div>
+          <div class="fwB5">5</div>
         </div>
-        <div class="grid-container-jc" id="jc">
-            <div class="justify-contentA">flex-start
-                <div class="jcA1">1</div>
-                <div class="jcA2">2</div>
-                <div class="jcA3">3</div>
-            </div>
-            <div class="justify-contentB">flex-end
-                <div class="jcB1">1</div>
-                <div class="jcB2">2</div>
-                <div class="jcB3">3</div>
-            </div>
-            <div class="justify-contentC">center
-                <div class="jcC1">1</div>
-                <div class="jcC2">2</div>
-                <div class="jcC3">3</div>
-            </div>
-            <div class="justify-contentD">space-between
-                <div class="jcD1">1</div>
-                <div class="jcD2">2</div>
-                <div class="jcD3">3</div>
-            </div>
-            <div class="justify-contentE">space-around
-                <div class="jcE1">1</div>
-                <div class="jcE2">2</div>
-                <div class="jcE3">3</div>
-            </div>
-            <div class="justify-contentF">space-evenly
-                <div class="jcF1">1</div>
-                <div class="jcF2">2</div>
-                <div class="jcF3">3</div>
-            </div>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>justify-content</h3>
+      </div>
+      <div class="grid-container-jc" id="jc">
+        <div class="justify-contentA">
+          flex-start
+          <div class="jcA1">1</div>
+          <div class="jcA2">2</div>
+          <div class="jcA3">3</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>align-items</h3>
+        <div class="justify-contentB">
+          flex-end
+          <div class="jcB1">1</div>
+          <div class="jcB2">2</div>
+          <div class="jcB3">3</div>
         </div>
-        <div class="grid-container-ai" id="ai">
-            <div class="align-itemsA">flex-start
-                <div class="aiA1">1</div>
-                <div class="aiA2">2</div>
-                <div class="aiA3">3</div>
-                <div class="aiA4">4</div>
-            </div>
-            <div class="align-itemsB">flex-end
-                <div class="aiB1">1</div>
-                <div class="aiB2">2</div>
-                <div class="aiB3">3</div>
-                <div class="aiB4">4</div>
-            </div>
-            <div class="align-itemsC">center
-                <div class="aiC1">1</div>
-                <div class="aiC2">2</div>
-                <div class="aiC3">3</div>
-                <div class="aiC4">4</div>
-            </div>
-            <div class="align-itemsD">stretch
-                <div class="aiD1">1</div>
-                <div class="aiD2">2</div>
-                <div class="aiD3">3</div>
-                <div class="aiD4">4</div>
-            </div>
-            <div class="align-itemsE">baseline
-                <div class="aiE1" style="font-size: 10px;">1</div>
-                <div class="aiE2" style="font-size: 40px;">2</div>
-                <div class="aiE3" style="font-size: 25px;">3</div>
-                <div class="aiE4" style="font-size: 60px;">4</div>
-            </div>
+        <div class="justify-contentC">
+          center
+          <div class="jcC1">1</div>
+          <div class="jcC2">2</div>
+          <div class="jcC3">3</div>
         </div>
-        <hr>
-        <div class="titulos" id="as">
-            <h3>align-self</h3>
-            <h5>Acepta lo mismo pero individualmente.</h5>
+        <div class="justify-contentD">
+          space-between
+          <div class="jcD1">1</div>
+          <div class="jcD2">2</div>
+          <div class="jcD3">3</div>
         </div>
-        <div class="grid-container-as">
-            <div class="align-self">
-                <div class="as1">1</div>
-                <div class="as2">2</div>
-                <div class="as3">3</div>
-                <div class="as4">4</div>
-            </div>
+        <div class="justify-contentE">
+          space-around
+          <div class="jcE1">1</div>
+          <div class="jcE2">2</div>
+          <div class="jcE3">3</div>
         </div>
-        <hr>
-        <div class="titulos">
-            <h3>align-content</h3>
+        <div class="justify-contentF">
+          space-evenly
+          <div class="jcF1">1</div>
+          <div class="jcF2">2</div>
+          <div class="jcF3">3</div>
         </div>
-        <div class="grid-container-ac" id="ac">
-            <div class="align-contentA">flex-start
-                <div class="acA1">1</div>
-                <div class="acA2">2</div>
-                <div class="acA3">3</div>
-                <div class="acA4">4</div>
-            </div>
-            <div class="align-contentB">flex-end
-                <div class="acB1">1</div>
-                <div class="acB2">2</div>
-                <div class="acB3">3</div>
-                <div class="acB4">4</div>
-            </div>
-            <div class="align-contentC">center
-                <div class="acC1">1</div>
-                <div class="acC2">2</div>
-                <div class="acC3">3</div>
-                <div class="acC4">4</div>
-            </div>
-            <div class="align-contentD">stretch
-                <div class="acD1">1</div>
-                <div class="acD2">2</div>
-                <div class="acD3">3</div>
-                <div class="acD4">4</div>
-            </div>
-            <div class="align-contentE">space-between
-                <div class="acE1">1</div>
-                <div class="acE2">2</div>
-                <div class="acE3">3</div>
-                <div class="acE4">4</div>
-            </div>
-            <div class="align-contentF">space-around
-                <div class="acF1">1</div>
-                <div class="acF2">2</div>
-                <div class="acF3">3</div>
-                <div class="acF4">4</div>
-            </div>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>align-items</h3>
+      </div>
+      <div class="grid-container-ai" id="ai">
+        <div class="align-itemsA">
+          flex-start
+          <div class="aiA1">1</div>
+          <div class="aiA2">2</div>
+          <div class="aiA3">3</div>
+          <div class="aiA4">4</div>
         </div>
-        <hr>
+        <div class="align-itemsB">
+          flex-end
+          <div class="aiB1">1</div>
+          <div class="aiB2">2</div>
+          <div class="aiB3">3</div>
+          <div class="aiB4">4</div>
+        </div>
+        <div class="align-itemsC">
+          center
+          <div class="aiC1">1</div>
+          <div class="aiC2">2</div>
+          <div class="aiC3">3</div>
+          <div class="aiC4">4</div>
+        </div>
+        <div class="align-itemsD">
+          stretch
+          <div class="aiD1">1</div>
+          <div class="aiD2">2</div>
+          <div class="aiD3">3</div>
+          <div class="aiD4">4</div>
+        </div>
+        <div class="align-itemsE">
+          baseline
+          <div class="aiE1" style="font-size: 10px;">1</div>
+          <div class="aiE2" style="font-size: 40px;">2</div>
+          <div class="aiE3" style="font-size: 25px;">3</div>
+          <div class="aiE4" style="font-size: 60px;">4</div>
+        </div>
+      </div>
+      <hr />
+      <div class="titulos" id="as">
+        <h3>align-self</h3>
+        <h5>Acepta lo mismo pero individualmente.</h5>
+      </div>
+      <div class="grid-container-as">
+        <div class="align-self">
+          <div class="as1">1</div>
+          <div class="as2">2</div>
+          <div class="as3">3</div>
+          <div class="as4">4</div>
+        </div>
+      </div>
+      <hr />
+      <div class="titulos">
+        <h3>align-content</h3>
+      </div>
+      <div class="grid-container-ac" id="ac">
+        <div class="align-contentA">
+          flex-start
+          <div class="acA1">1</div>
+          <div class="acA2">2</div>
+          <div class="acA3">3</div>
+          <div class="acA4">4</div>
+        </div>
+        <div class="align-contentB">
+          flex-end
+          <div class="acB1">1</div>
+          <div class="acB2">2</div>
+          <div class="acB3">3</div>
+          <div class="acB4">4</div>
+        </div>
+        <div class="align-contentC">
+          center
+          <div class="acC1">1</div>
+          <div class="acC2">2</div>
+          <div class="acC3">3</div>
+          <div class="acC4">4</div>
+        </div>
+        <div class="align-contentD">
+          stretch
+          <div class="acD1">1</div>
+          <div class="acD2">2</div>
+          <div class="acD3">3</div>
+          <div class="acD4">4</div>
+        </div>
+        <div class="align-contentE">
+          space-between
+          <div class="acE1">1</div>
+          <div class="acE2">2</div>
+          <div class="acE3">3</div>
+          <div class="acE4">4</div>
+        </div>
+        <div class="align-contentF">
+          space-around
+          <div class="acF1">1</div>
+          <div class="acF2">2</div>
+          <div class="acF3">3</div>
+          <div class="acF4">4</div>
+        </div>
+      </div>
+      <hr />
     </div>
     <div class="footer">
-        <footer><a href="https://github.com/NachoKai" class="link">Nacho Caiafa</a></footer>
+      <footer>
+        <a href="https://github.com/NachoKai" class="link">Nacho Caiafa</a>
+      </footer>
     </div>
     <script src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/429b57eee3.js" crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>

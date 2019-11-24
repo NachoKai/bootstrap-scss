@@ -3,1524 +3,1524 @@ $secondary-color: #9de5ff;
 $white-text: #ffffff;
 
 * {
-    font-family: "Source Sans Pro", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
-    text-align: center;
-    font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 16px;
 }
 
 body {
-    background-color: #0c0c0c;
+  background-color: #0c0c0c;
 }
 
 .titulo {
-    color: $white-text;
+  color: $white-text;
 }
 
 .titulos {
-    color: $white-text;
+  color: $white-text;
 }
 
 hr {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
 }
 
 footer {
-    background: #0c0c0c;
-    height: 40px;
-    font-size: 15px;
+  background: #0c0c0c;
+  height: 40px;
+  font-size: 15px;
 }
 
 .link {
-    font-size: 18px;
-    color: $white-text;
+  font-size: 18px;
+  color: $white-text;
 }
 
 .link:hover {
-    color: $white-text;
+  color: $white-text;
 }
 
 .link:active {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .fondo-de-fondos {
-    text-align: center;
-    background-color: #0c0c0c;
-    padding: 5px;
-    flex-wrap: wrap;
-    font-size: 20px;
-    font-weight: 600;
+  text-align: center;
+  background-color: #0c0c0c;
+  padding: 5px;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 //container items
 
 .grid-container-container {
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1;
-    grid-template-areas: "fondo-container";
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1;
+  grid-template-areas: "fondo-container";
 }
 
 .fondo-container {
-    padding: 8px;
-    margin: 8px;
-    justify-content: center;
-    width: 100%;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "container1 container2 container3";
-    grid-area: fondo-container;
+  padding: 8px;
+  margin: 8px;
+  justify-content: center;
+  width: 100%;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "container1 container2 container3";
+  grid-area: fondo-container;
 }
 
 .container1 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: container1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: container1;
 }
 
 .container2 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: container2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: container2;
 }
 
 .container3 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: container3;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: container3;
 }
 
 //order
 
 .grid-container-order {
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "order1""order2""order3";
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "order1" "order2" "order3";
 }
 
 .order1 {
-    min-width: 300px;
-    padding: 8px;
-    margin: 8px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "orderA1 orderA2 orderA3 orderA4 orderA5";
-    grid-area: order1;
+  min-width: 300px;
+  padding: 8px;
+  margin: 8px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "orderA1 orderA2 orderA3 orderA4 orderA5";
+  grid-area: order1;
 }
 
 .orderA1 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderA1;
-    order: 1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderA1;
+  order: 1;
 }
 
 .orderA2 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderA2;
-    order: 1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderA2;
+  order: 1;
 }
 
 .orderA3 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderA3;
-    order: 1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderA3;
+  order: 1;
 }
 
 .orderA4 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderA4;
-    order: 2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderA4;
+  order: 2;
 }
 
 .orderA5 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderA5;
-    order: 3;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderA5;
+  order: 3;
 }
 
 .order2 {
-    min-width: 300px;
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "orderB1 orderB2 orderB3 orderB4";
-    grid-area: order2;
+  min-width: 300px;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "orderB1 orderB2 orderB3 orderB4";
+  grid-area: order2;
 }
 
 .orderB1 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderB1;
-    order: -1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderB1;
+  order: -1;
 }
 
 .orderB2 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderB2;
-    order: 1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderB2;
+  order: 1;
 }
 
 .orderB3 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderB3;
-    order: 2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderB3;
+  order: 2;
 }
 
 .orderB4 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderB4;
-    order: 5;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderB4;
+  order: 5;
 }
 
 .order3 {
-    min-width: 300px;
-    padding: 8px;
-    margin: 8px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "orderC1""orderC2""orderC3";
-    grid-area: order3;
+  min-width: 300px;
+  padding: 8px;
+  margin: 8px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "orderC1" "orderC2" "orderC3";
+  grid-area: order3;
 }
 
 .orderC1 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderC1;
-    order: 2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderC1;
+  order: 2;
 }
 
 .orderC2 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderC2;
-    order: 2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderC2;
+  order: 2;
 }
 
 .orderC3 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: orderC3;
-    order: 99;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: orderC3;
+  order: 99;
 }
 
 //flex direction
 
 .grid-container-fd {
-    justify-content: center;
-    padding: 8px;
-    margin: 8px;
-    flex-wrap: wrap;
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "flex-directionA flex-directionB""flex-directionC flex-directionD";
+  justify-content: center;
+  padding: 8px;
+  margin: 8px;
+  flex-wrap: wrap;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "flex-directionA flex-directionB" "flex-directionC flex-directionD";
 }
 
 .flex-directionA {
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fdA1 fdA2 fdA3";
-    grid-area: flex-directionA;
-    flex-direction: row;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fdA1 fdA2 fdA3";
+  grid-area: flex-directionA;
+  flex-direction: row;
 }
 
 .fdA1 {
-    min-width: 70px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdA1;
+  min-width: 70px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdA1;
 }
 
 .fdA2 {
-    min-width: 70px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdA2;
+  min-width: 70px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdA2;
 }
 
 .fdA3 {
-    min-width: 70px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdA3;
+  min-width: 70px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdA3;
 }
 
 .flex-directionB {
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "fdB1""fdB2""fdB3";
-    grid-area: flex-directionB;
-    flex-direction: column;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "fdB1" "fdB2" "fdB3";
+  grid-area: flex-directionB;
+  flex-direction: column;
 }
 
 .fdB1 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdB1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdB1;
 }
 
 .fdB2 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdB2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdB2;
 }
 
 .fdB3 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdB3;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdB3;
 }
 
 .flex-directionC {
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fdC1 fdC2 fdC3";
-    grid-area: flex-directionC;
-    flex-direction: row-reverse;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fdC1 fdC2 fdC3";
+  grid-area: flex-directionC;
+  flex-direction: row-reverse;
 }
 
 .fdC1 {
-    min-width: 70px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdC1;
+  min-width: 70px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdC1;
 }
 
 .fdC2 {
-    min-width: 70px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdC2;
+  min-width: 70px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdC2;
 }
 
 .fdC3 {
-    min-width: 70px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdC3;
+  min-width: 70px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdC3;
 }
 
 .flex-directionD {
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "fdD1""fdD2""fdD3";
-    grid-area: flex-directionD;
-    flex-direction: column-reverse;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "fdD1" "fdD2" "fdD3";
+  grid-area: flex-directionD;
+  flex-direction: column-reverse;
 }
 
 .fdD1 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdD1;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdD1;
 }
 
 .fdD2 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdD2;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdD2;
 }
 
 .fdD3 {
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: fdD3;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: fdD3;
 }
 
 //flex grow
 
 .grid-container-fg {
-    justify-content: center;
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "flex-growA""flex-growB";
+  justify-content: center;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "flex-growA" "flex-growB";
 }
 
 .flex-growA {
-    padding: 8px;
-    margin: 8px;
-    width: 60%;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fgA1 fgA2 fgA3";
-    grid-area: flex-growA;
+  padding: 8px;
+  margin: 8px;
+  width: 60%;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fgA1 fgA2 fgA3";
+  grid-area: flex-growA;
 }
 
 .fgA1 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fgA1;
-    background: $secondary-color;
-    flex-grow: 1;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fgA1;
+  background: $secondary-color;
+  flex-grow: 1;
 }
 
 .fgA2 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fgA2;
-    background: $secondary-color;
-    flex-grow: 1;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fgA2;
+  background: $secondary-color;
+  flex-grow: 1;
 }
 
 .fgA3 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fgA3;
-    background: $secondary-color;
-    flex-grow: 1;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fgA3;
+  background: $secondary-color;
+  flex-grow: 1;
 }
 
 .flex-growB {
-    padding: 8px;
-    margin: 8px;
-    width: 100%;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fgB1 fgB2 fgB3";
-    grid-area: flex-growB;
+  padding: 8px;
+  margin: 8px;
+  width: 100%;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fgB1 fgB2 fgB3";
+  grid-area: flex-growB;
 }
 
 .fgB1 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fgB1;
-    background: $secondary-color;
-    flex-grow: 1;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fgB1;
+  background: $secondary-color;
+  flex-grow: 1;
 }
 
 .fgB2 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fgB2;
-    background: $secondary-color;
-    flex-grow: 2;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fgB2;
+  background: $secondary-color;
+  flex-grow: 2;
 }
 
 .fgB3 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fgB3;
-    background: $secondary-color;
-    flex-grow: 1;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fgB3;
+  background: $secondary-color;
+  flex-grow: 1;
 }
 
 //flex wrap
 
 .grid-container-fw {
-    padding: 8px;
-    margin: 8px;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "flex-wrapA flex-wrapB";
+  padding: 8px;
+  margin: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "flex-wrapA flex-wrapB";
 }
 
 .flex-wrapA {
-    padding: 8px;
-    margin: 8px;
-    max-width: 150px;
-    height: 180px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fwA1 fwA2 fwA3 fwA4 fwA5";
-    grid-area: flex-wrapA;
-    flex-wrap: wrap;
+  padding: 8px;
+  margin: 8px;
+  max-width: 150px;
+  height: 180px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fwA1 fwA2 fwA3 fwA4 fwA5";
+  grid-area: flex-wrapA;
+  flex-wrap: wrap;
 }
 
 .fwA1 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwA1;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwA1;
+  background: $secondary-color;
 }
 
 .fwA2 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwA2;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwA2;
+  background: $secondary-color;
 }
 
 .fwA3 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwA3;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwA3;
+  background: $secondary-color;
 }
 
 .fwA4 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwA4;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwA4;
+  background: $secondary-color;
 }
 
 .fwA5 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwA5;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwA5;
+  background: $secondary-color;
 }
 
 .flex-wrapB {
-    padding: 8px;
-    margin: 8px;
-    height: 180px;
-    display: flex;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fwB1 fwB2 fwB3 fwB4 fwB5";
-    grid-area: flex-wrapB;
-    flex-wrap: nowrap;
+  padding: 8px;
+  margin: 8px;
+  height: 180px;
+  display: flex;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fwB1 fwB2 fwB3 fwB4 fwB5";
+  grid-area: flex-wrapB;
+  flex-wrap: nowrap;
 }
 
 .fwB1 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwB1;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwB1;
+  background: $secondary-color;
 }
 
 .fwB2 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwB2;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwB2;
+  background: $secondary-color;
 }
 
 .fwB3 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwB3;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwB3;
+  background: $secondary-color;
 }
 
 .fwB4 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwB4;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwB4;
+  background: $secondary-color;
 }
 
 .fwB5 {
-    padding: 8px;
-    margin: 8px;
-    grid-area: fwB5;
-    background: $secondary-color;
+  padding: 8px;
+  margin: 8px;
+  grid-area: fwB5;
+  background: $secondary-color;
 }
 
 //justify content
 
 .grid-container-jc {
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "justify-contentA""justify-contentB""justify-contentC""justify-contentD""justify-contentE""justify-contentF";
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "justify-contentA" "justify-contentB" "justify-contentC" "justify-contentD" "justify-contentE" "justify-contentF";
 }
 
 .justify-contentA {
-    padding: 8px;
-    margin: 8px;
-    justify-content: flex-start;
-    display: flex;
-    width: 100%;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "jcA1 jcA2 jcA3";
-    grid-area: justify-contentA;
+  padding: 8px;
+  margin: 8px;
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "jcA1 jcA2 jcA3";
+  grid-area: justify-contentA;
 }
 
 .jcA1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcA1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcA1;
 }
 
 .jcA2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcA2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcA2;
 }
 
 .jcA3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcA3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcA3;
 }
 
 .justify-contentB {
-    padding: 8px;
-    margin: 8px;
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "jcB1 jcB2 jcB3";
-    grid-area: justify-contentB;
+  padding: 8px;
+  margin: 8px;
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "jcB1 jcB2 jcB3";
+  grid-area: justify-contentB;
 }
 
 .jcB1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcB1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcB1;
 }
 
 .jcB2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcB2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcB2;
 }
 
 .jcB3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcB3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcB3;
 }
 
 .justify-contentC {
-    padding: 8px;
-    margin: 8px;
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "jcC1 jcC2 jcC3";
-    grid-area: justify-contentC;
+  padding: 8px;
+  margin: 8px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "jcC1 jcC2 jcC3";
+  grid-area: justify-contentC;
 }
 
 .jcC1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcC1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcC1;
 }
 
 .jcC2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcC2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcC2;
 }
 
 .jcC3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcC3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcC3;
 }
 
 .justify-contentD {
-    padding: 8px;
-    margin: 8px;
-    justify-content: space-between;
-    display: flex;
-    width: 100%;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "jcD1 jcD2 jcD3";
-    grid-area: justify-contentD;
+  padding: 8px;
+  margin: 8px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "jcD1 jcD2 jcD3";
+  grid-area: justify-contentD;
 }
 
 .jcD1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcD1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcD1;
 }
 
 .jcD2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcD2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcD2;
 }
 
 .jcD3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcD3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcD3;
 }
 
 .justify-contentE {
-    padding: 8px;
-    margin: 8px;
-    justify-content: space-around;
-    display: flex;
-    width: 100%;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "jcE1 jcE2 jcE3";
-    grid-area: justify-contentE;
+  padding: 8px;
+  margin: 8px;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "jcE1 jcE2 jcE3";
+  grid-area: justify-contentE;
 }
 
 .jcE1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcE1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcE1;
 }
 
 .jcE2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcE2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcE2;
 }
 
 .jcE3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcE3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcE3;
 }
 
 .justify-contentF {
-    padding: 8px;
-    margin: 8px;
-    justify-content: space-evenly;
-    display: flex;
-    width: 100%;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "jcF1 jcF2 jcF3";
-    grid-area: justify-contentF;
+  padding: 8px;
+  margin: 8px;
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "jcF1 jcF2 jcF3";
+  grid-area: justify-contentF;
 }
 
 .jcF1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcF1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcF1;
 }
 
 .jcF2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcF2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcF2;
 }
 
 .jcF3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: jcF3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: jcF3;
 }
 
 //align items
 
 .grid-container-ai {
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "align-itemsA align-itemsB""align-itemsC align-itemsD""align-itemsE align-itemsE";
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "align-itemsA align-itemsB" "align-itemsC align-itemsD" "align-itemsE align-itemsE";
 }
 
 .align-itemsA {
-    padding: 8px;
-    margin: 8px;
-    align-items: flex-start;
-    display: flex;
-    height: 250px;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "aiA1 aiA2 aiA3 aiA4";
-    grid-area: align-itemsA;
+  padding: 8px;
+  margin: 8px;
+  align-items: flex-start;
+  display: flex;
+  height: 250px;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "aiA1 aiA2 aiA3 aiA4";
+  grid-area: align-itemsA;
 }
 
 .aiA1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiA1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiA1;
 }
 
 .aiA2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiA2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiA2;
 }
 
 .aiA3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiA3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiA3;
 }
 
 .aiA4 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiA4;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiA4;
 }
 
 .align-itemsB {
-    padding: 8px;
-    margin: 8px;
-    align-items: flex-end;
-    display: flex;
-    height: 250px;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "aiB1 aiB2 aiB3 aiB4";
-    grid-area: align-itemsB;
+  padding: 8px;
+  margin: 8px;
+  align-items: flex-end;
+  display: flex;
+  height: 250px;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "aiB1 aiB2 aiB3 aiB4";
+  grid-area: align-itemsB;
 }
 
 .aiB1 {
-    padding: 8px;
-    margin: 8px;
-    width: 50px;
-    background: $secondary-color;
-    grid-area: aiB1;
+  padding: 8px;
+  margin: 8px;
+  width: 50px;
+  background: $secondary-color;
+  grid-area: aiB1;
 }
 
 .aiB2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiB2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiB2;
 }
 
 .aiB3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiB3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiB3;
 }
 
 .aiB4 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiB4;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiB4;
 }
 
 .align-itemsC {
-    padding: 8px;
-    margin: 8px;
-    align-items: center;
-    display: flex;
-    height: 250px;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "aiC1 aiC2 aiC3 aiC4";
-    grid-area: align-itemsC;
+  padding: 8px;
+  margin: 8px;
+  align-items: center;
+  display: flex;
+  height: 250px;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "aiC1 aiC2 aiC3 aiC4";
+  grid-area: align-itemsC;
 }
 
 .aiC1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiC1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiC1;
 }
 
 .aiC2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiC2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiC2;
 }
 
 .aiC3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiC3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiC3;
 }
 
 .aiC4 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiC4;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiC4;
 }
 
 .align-itemsD {
-    padding: 8px;
-    margin: 8px;
-    align-items: stretch;
-    display: flex;
-    height: 250px;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "aiD1 aiD2 aiD3 aiD4";
-    grid-area: align-itemsD;
+  padding: 8px;
+  margin: 8px;
+  align-items: stretch;
+  display: flex;
+  height: 250px;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "aiD1 aiD2 aiD3 aiD4";
+  grid-area: align-itemsD;
 }
 
 .aiD1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiD1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiD1;
 }
 
 .aiD2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiD2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiD2;
 }
 
 .aiD3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiD3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiD3;
 }
 
 .aiD4 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiD4;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiD4;
 }
 
 .align-itemsE {
-    padding: 8px;
-    margin: 8px;
-    align-items: baseline;
-    display: flex;
-    height: 250px;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "aiE1 aiE2 aiE3 aiE4";
-    grid-area: align-itemsE;
+  padding: 8px;
+  margin: 8px;
+  align-items: baseline;
+  display: flex;
+  height: 250px;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "aiE1 aiE2 aiE3 aiE4";
+  grid-area: align-itemsE;
 }
 
 .aiE1 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiE1;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiE1;
 }
 
 .aiE2 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiE2;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiE2;
 }
 
 .aiE3 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiE3;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiE3;
 }
 
 .aiE4 {
-    padding: 8px;
-    margin: 8px;
-    width: 40px;
-    background: $secondary-color;
-    grid-area: aiE4;
+  padding: 8px;
+  margin: 8px;
+  width: 40px;
+  background: $secondary-color;
+  grid-area: aiE4;
 }
 
 //align self
 
 .grid-container-as {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 8px;
-    margin: 8px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "align-self";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px;
+  margin: 8px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "align-self";
 }
 
 .align-self {
-    padding: 8px;
-    margin: 8px;
-    display: flex;
-    height: 250px;
-    background: $primary-color;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "as1 as2 as3 as4";
-    grid-area: align-self;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  height: 250px;
+  background: $primary-color;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "as1 as2 as3 as4";
+  grid-area: align-self;
 }
 
 .as1 {
-    padding: 8px;
-    margin: 8px;
-    align-self: flex-start;
-    width: 50px;
-    background: $secondary-color;
-    grid-area: as1;
+  padding: 8px;
+  margin: 8px;
+  align-self: flex-start;
+  width: 50px;
+  background: $secondary-color;
+  grid-area: as1;
 }
 
 .as2 {
-    padding: 8px;
-    margin: 8px;
-    align-self: flex-end;
-    width: 50px;
-    background: $secondary-color;
-    grid-area: as2;
+  padding: 8px;
+  margin: 8px;
+  align-self: flex-end;
+  width: 50px;
+  background: $secondary-color;
+  grid-area: as2;
 }
 
 .as3 {
-    padding: 8px;
-    margin: 8px;
-    align-self: center;
-    width: 50px;
-    background: $secondary-color;
-    grid-area: as3;
+  padding: 8px;
+  margin: 8px;
+  align-self: center;
+  width: 50px;
+  background: $secondary-color;
+  grid-area: as3;
 }
 
 .as4 {
-    padding: 8px;
-    margin: 8px;
-    align-self: stretch;
-    width: 50px;
-    background: $secondary-color;
-    grid-area: as4;
+  padding: 8px;
+  margin: 8px;
+  align-self: stretch;
+  width: 50px;
+  background: $secondary-color;
+  grid-area: as4;
 }
 
 //align content
 
 .grid-container-ac {
-    padding: 8px;
-    margin: 8px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "align-contentA align-contentB""align-contentC align-contentD""align-contentE align-contentF";
+  padding: 8px;
+  margin: 8px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "align-contentA align-contentB" "align-contentC align-contentD" "align-contentE align-contentF";
 }
 
 .align-contentA {
-    flex-wrap: wrap;
-    width: 220px;
-    padding: 8px;
-    margin: 8px;
-    align-content: flex-start;
-    min-height: 300px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "acA1""acA2""acA3""acA4";
-    grid-area: align-contentA;
+  flex-wrap: wrap;
+  width: 220px;
+  padding: 8px;
+  margin: 8px;
+  align-content: flex-start;
+  min-height: 300px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "acA1" "acA2" "acA3" "acA4";
+  grid-area: align-contentA;
 }
 
 .acA1 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acA1;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acA1;
 }
 
 .acA2 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acA2;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acA2;
 }
 
 .acA3 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acA3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acA3;
 }
 
 .acA4 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acA3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acA3;
 }
 
 .align-contentB {
-    flex-wrap: wrap;
-    width: 220px;
-    padding: 8px;
-    margin: 8px;
-    align-content: flex-end;
-    min-height: 300px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "acB1""acB2""acB3""acB4";
-    grid-area: align-contentB;
+  flex-wrap: wrap;
+  width: 220px;
+  padding: 8px;
+  margin: 8px;
+  align-content: flex-end;
+  min-height: 300px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "acB1" "acB2" "acB3" "acB4";
+  grid-area: align-contentB;
 }
 
 .acB1 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acB1;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acB1;
 }
 
 .acB2 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acB2;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acB2;
 }
 
 .acB3 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acB3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acB3;
 }
 
 .acB4 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acB3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acB3;
 }
 
 .align-contentC {
-    flex-wrap: wrap;
-    width: 220px;
-    padding: 8px;
-    margin: 8px;
-    align-content: center;
-    min-height: 300px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "acC1""acC2""acC3""acC4";
-    grid-area: align-contentC;
+  flex-wrap: wrap;
+  width: 220px;
+  padding: 8px;
+  margin: 8px;
+  align-content: center;
+  min-height: 300px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "acC1" "acC2" "acC3" "acC4";
+  grid-area: align-contentC;
 }
 
 .acC1 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acC1;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acC1;
 }
 
 .acC2 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acC2;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acC2;
 }
 
 .acC3 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acC3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acC3;
 }
 
 .acC4 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acC3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acC3;
 }
 
 .align-contentD {
-    width: 220px;
-    padding: 8px;
-    margin: 8px;
-    align-content: stretch;
-    background: $primary-color;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "acD1""acD2""acD3""acD4";
-    grid-area: align-contentD;
+  width: 220px;
+  padding: 8px;
+  margin: 8px;
+  align-content: stretch;
+  background: $primary-color;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "acD1" "acD2" "acD3" "acD4";
+  grid-area: align-contentD;
 }
 
 .acD1 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acD1;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acD1;
 }
 
 .acD2 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acD2;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acD2;
 }
 
 .acD3 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acD3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acD3;
 }
 
 .acD4 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acD3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acD3;
 }
 
 .align-contentE {
-    flex-wrap: wrap;
-    width: 220px;
-    padding: 8px;
-    margin: 8px;
-    align-content: space-between;
-    min-height: 300px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "acE1""acE2""acE3""acE4";
-    grid-area: align-contentE;
+  flex-wrap: wrap;
+  width: 220px;
+  padding: 8px;
+  margin: 8px;
+  align-content: space-between;
+  min-height: 300px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "acE1" "acE2" "acE3" "acE4";
+  grid-area: align-contentE;
 }
 
 .acE1 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acE1;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acE1;
 }
 
 .acE2 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acE2;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acE2;
 }
 
 .acE3 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acE3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acE3;
 }
 
 .acE4 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acE3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acE3;
 }
 
 .align-contentF {
-    flex-wrap: wrap;
-    width: 220px;
-    padding: 8px;
-    margin: 8px;
-    align-content: space-around;
-    min-height: 300px;
-    background: $primary-color;
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "acF1""acF2""acF3""acF4";
-    grid-area: align-contentF;
+  flex-wrap: wrap;
+  width: 220px;
+  padding: 8px;
+  margin: 8px;
+  align-content: space-around;
+  min-height: 300px;
+  background: $primary-color;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "acF1" "acF2" "acF3" "acF4";
+  grid-area: align-contentF;
 }
 
 .acF1 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acF1;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acF1;
 }
 
 .acF2 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acF2;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acF2;
 }
 
 .acF3 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acF3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acF3;
 }
 
 .acF4 {
-    max-height: 50px;
-    padding: 8px;
-    margin: 8px;
-    background: $secondary-color;
-    grid-area: acF3;
+  max-height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: $secondary-color;
+  grid-area: acF3;
 }
 
 //navbar
 
 .topnav {
-    width: 100%;
-    top: 0;
-    overflow: hidden;
-    background-color: rgb(27, 27, 27);
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  background-color: rgb(27, 27, 27);
 }
 
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .topnav a:hover {
-    text-decoration: none;
-    background-color: $secondary-color;
-    color: black;
+  text-decoration: none;
+  background-color: $secondary-color;
+  color: black;
 }
 
 .topnav a.active {
-    background-color: $primary-color;
-    color: white;
+  background-color: $primary-color;
+  color: white;
 }
 
 .topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
     display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
+  .topnav.responsive {
+    position: relative;
+  }
 
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 //scrollbar
 
 ::-webkit-scrollbar {
-    width: 15px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(27, 27, 27);
+  background: rgb(27, 27, 27);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 //ir arriba
 
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 99;
-    font-size: 0px;
-    border: none;
-    outline: none;
-    background-color: $primary-color;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 20px;
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 99;
+  font-size: 0px;
+  border: none;
+  outline: none;
+  background-color: $primary-color;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 #myBtn:hover {
-    background-color: #555;
+  background-color: #555;
 }
