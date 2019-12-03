@@ -1,6 +1,5 @@
-# Practica de Bootstrap, Scss, Grid y Flexbox  
-## [Entrar](https://nachokai.github.io/bootstrap-scss/)  
-#### • Bootstrap  
+# Practica de Grid, Scss y Flexbox  .
+## [Entrar](https://nachokai.github.io/grid-scss/)   
 #### • Scss  
 #### • Grid  
 #### • Flexbox  
