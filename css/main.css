@@ -39,7 +39,8 @@ footer a {
 }
 
 .prop {
-  color: #ffffff;
+  padding: 10px;
+  color: #ffffff !important;
 }
 
 .link {
