@@ -30,9 +30,15 @@ hr {
 }
 
 footer {
+  line-height: 50%;
   background: #0c0c0c;
-  height: 40px;
+  color: #ffffff;
+  height: 20px;
   font-size: 15px;
+
+  a{
+    color: #ffffff;
+  }
 }
 
 .link {
@@ -49,6 +55,7 @@ footer {
 }
 
 .fondo-de-fondos {
+  min-height: calc(100vh - 20px);
   text-align: center;
   background-color: #0c0c0c;
   padding: 5px;
@@ -1438,6 +1445,7 @@ footer {
 }
 
 .topnav a:hover {
+  cursor: pointer;
   text-decoration: none;
   background-color: $secondary-color;
   color: black;
@@ -1522,5 +1530,6 @@ html {
 }
 
 #myBtn:hover {
+  cursor: pointer;
   background-color: #555;
 }

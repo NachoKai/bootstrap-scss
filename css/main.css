@@ -28,9 +28,15 @@ hr {
 }
 
 footer {
+  line-height: 50%;
   background: #0c0c0c;
-  height: 40px;
+  color: #ffffff;
+  height: 20px;
   font-size: 15px;
+}
+
+footer a {
+  color: #ffffff;
 }
 
 .link {
@@ -47,6 +53,7 @@ footer {
 }
 
 .fondo-de-fondos {
+  min-height: calc(100vh - 20px);
   text-align: center;
   background-color: #0c0c0c;
   padding: 5px;
@@ -1964,6 +1971,7 @@ footer {
 }
 
 .topnav a:hover {
+  cursor: pointer;
   text-decoration: none;
   background-color: #9de5ff;
   color: black;
@@ -2041,6 +2049,7 @@ html {
 }
 
 #myBtn:hover {
+  cursor: pointer;
   background-color: #555;
 }
 /*# sourceMappingURL=main.css.map */
